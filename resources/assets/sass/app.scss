@@ -1,0 +1,29 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.home-logo {
+	font-size: 84px;
+}
+
+.navbar-brand .glyphicon {
+	margin-right: 0.3em;
+}
+
+#taskListTable th:first-child {
+	width: 80%;
+}
+
+.inline {
+	display:inline;
+}
+
+.pagination {
+	margin: 0;
+}
